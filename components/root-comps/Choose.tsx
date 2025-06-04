@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import { Input } from "../ui/input";
 import Link from "next/link";
 import { Button } from "../ui/button";
-import { useGetCoursesQuery } from "@/state/api";
+// import { useGetCoursesQuery } from "@/state/api";
 import { useRouter } from "next/navigation";
 
 interface ChooseProps {
@@ -38,8 +38,8 @@ const Choose: React.FC<ChooseProps> = ({
   redirect = "/seller/choose-industry", // Default value for page
 }) => {
   const router = useRouter();
-  const { data: courses, isLoading: load, isError } = useGetCoursesQuery({});
-  console.log({ courses, load, isError });
+  // const { data: courses, isLoading: load, isError } = useGetCoursesQuery({});
+  // console.log({ courses, load, isError });
 
   const items = [
     "Insurance Brokerage",

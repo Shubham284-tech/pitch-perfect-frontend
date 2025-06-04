@@ -25,7 +25,6 @@ import {
   SignInSchema,
   SignUpSchema,
 } from "@/lib/validations";
-import Image from "next/image";
 import ROUTES from "@/constants/routes";
 import { useRouter } from "next/navigation";
 import { useDispatch, useSelector } from "react-redux";

@@ -9,6 +9,7 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: true,
   },
   devIndicators: false,
+  output: 'export',
   images: {
     remotePatterns: [
       {
